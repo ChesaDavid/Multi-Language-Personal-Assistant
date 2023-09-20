@@ -7,7 +7,7 @@ Create a personal assistant application that can perform a wide range of tasks u
 #Components:
 Voice Recognition (Python): Implement voice recognition using Python libraries like SpeechRecognition to understand spoken commands.
 
-Natural Language Processing (Python): Utilize Python's Natural Language Processing libraries (NLTK or spaCy) to analyze and understand the context of text-based commands.
+Natural Language Processing (Python): Utilize Python's Natural Language Processing libraries (speech_recognition) to analyze and understand the context of text-based commands.
 
 Task Management (Java): Develop a Java-based task management system to handle to-do lists, appointments, and reminders.
 
