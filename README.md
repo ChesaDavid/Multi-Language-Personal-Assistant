@@ -13,7 +13,7 @@ Task Management (Java): Develop a Java-based task management system to handle to
 
 Data Storage (C++): Use C++ to create a data storage module for securely storing user data, such as tasks and preferences.
 
-User Interface (Java): Design a user-friendly interface using Java's Swing or JavaFX for users to interact with the personal assistant.
+User Interface (html,css and javascript): Design a user-friendly interface using the combind effort of all three lenguages for users to interact with the personal assistant.
 
 Integration (Python, Java, C++): Implement communication between the Python voice recognition and natural language processing components, the Java task management and user interface, and the C++ data storage module.
 
