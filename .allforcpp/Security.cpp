@@ -7,7 +7,7 @@ class userData{
     private:
         std::string pasword;
 }
-int distraction(){
+int distraction(){  
     return 1;
 }
 int main(){
