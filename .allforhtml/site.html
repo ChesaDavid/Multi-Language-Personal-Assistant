@@ -1,30 +1,71 @@
 <!DOCTYPE html>
 <html>
     <title>HomePage</title>
-    <body style=background-color:#23239e33 ></body>>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="site.html">
+    
+    
+
+    <body style=background-color:white ></body>
     <div style="align-items: center;">
-        <header><h1 style="text-align: center;text-size-adjust: 12;
-        color:black"><i>Hello World!</i> <b>to your asistent</b></h1>
-        <a href="UserInterface.html" target="_blank" 
-        style="width:50%;display:block;text-align:center;padding:.5em;
-        background-color:#0073e2;color:hsl(0, 0%, 100%);border-radius:4px;box-shadow:0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08)
-        ;text-decoration:none ;margin-top: 12%;margin-bottom: 12%;margin-left: 12%;
-        margin-right: 12%;">Start Asistent</a>
-        <a href="UserInterface.html" target="_blank" 
-        style="width:50%;display:block;text-align:center;padding:.5em;
-        background-color:#0073e2;color:hsl(0, 0%, 100%);border-radius:4px;box-shadow:0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08)
-        ;text-decoration:none; margin-top: 12%;margin-bottom: 12%;margin-left: 12%;
-        margin-right: 12%;">Log in</a>
-        <a href="UserInterface.html" target="_blank" 
-        style="width:50%;display:block;text-align:center;padding:.5em;
-        background-color:#0073e2;color:hsl(0, 0%, 100%);border-radius:4px;box-shadow:0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08)
-        ;text-decoration:none;margin-top: 12%;margin-bottom: 12%;margin-left: 12%;
-        margin-right: 12%;">Fun why not</a>
+        <header>
+        <h1 style="text-align: center;text-size-adjust: 12;
+            color:black"> Welcome to my site and</h1>
+        <h1 style="text-align: center;text-size-adjust: 12;
+        color:black"><i>Hello World!</i> <b>to your asisstent</b></h1>
+        </header>
+
     </div>
-        <footer style="align-items: center">
+
+    
+    <nav style="width: 100%; color: black; background-color: black;border: 12px;border: black;">   
+        <a href="UserInterface.html" target="_blank" ><button style="width: 33%"> Asisstent</button></a>
+        <a href="login.html" target="_blank" ><button style="width: 33%">Log in</button></a>
+        <a href="JustForFan.html" target="_blank" ><button style="width: 33%">Just For Fan why not?</button></a>
+    </nav>
+
+    <section style= "align-items: center;"></section> 
+        <p class ="mySlides" style="align-self: center;font-style: italic; font-size:xx-large;">This project is started from back when
+             I still used HTML and never did my programing abilities been at that level again.
+             A massage for the reader i hope this would work by the time you acces
+              it , by the way I am writing this at 11 pm and 
+            I have as a second language english so do not make 
+            fun of how I write. Or the many mistakes that ar found in this.
+        </p>
+        <p class ="mySlides" style="align-self: center;font-style: italic; font-size: xx-large;">The point of this project is to show
+            firstly to myself that I am capeble to create a working project from scratch to almost complitiancy . If you are where from GitHub 
+            then you probably the first button asistent will not surprise you. At first I tried to make it a multi language asistent 
+            but at that point I was stupid. (At this poit of writing I hope I am better I the future)
+       </p>
+        <p class ="mySlides" style="align-self: center;font-style: italic; font-size: xx-large;font:100">If you press asistent it will teleport to another page
+            and there is an asisstent which will open anything you say
+        </p>
+   <p class ="mySlides" style="align-self: center;font-style: italic; font-size: xx-large;">What are you doing have some fuuuuuuun</p>
+    </section>
+
+    <script>
+       var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}
+          x[myIndex-1].style.display = "block";
+          setTimeout(carousel, 45000);
+        }
+        </script>
+    
+
+    <footer  style="align-items: center;padding: 64;color: #000;font-size: xx-large;container: 12">
             <div>
-            <img src="G:\My Drive\Dx\Multi-Language Personal Assistant\.lib\logo.png" 
-            style="width: 30;" alt="">
+            <img src="logo.png" 
+            style="width: 24;color: white;" alt="">
             <li class="contact">
             <span><a href="https://www.linkedin.com/in/david-chesa-824042296/">Contact Admin</a></span>
             </li>
@@ -35,6 +76,6 @@
             <span>chesa.david.it@gmail.com</span>
             </li>
             </div>
-        </footer>
+    </footer>
     </body>
 </html>
