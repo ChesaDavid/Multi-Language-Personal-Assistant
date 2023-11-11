@@ -2,21 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width: 700px,height: 1092px, initial-scale=1.0">
+    <link rel="stylesheet" href="style-homepage.css">
     <title>Home Page</title>
 </head>
 <body>
     <!-- Face of the site -->
-    <div>
-        <div>
-            <h1>Welcome to your asistent</h1>
-            <h1>And Hello World!</h1>
-            <p>Such pleasure to be with us</p>
+    <div class="whole-app">
+        <!-- The upper section of the site -->
+        <div class="upper-section">
+            <h1 class="first-title">Welcome to your asistent</h1>
+            <h3 class="Hello-world">And Hello World!</h3>
+            <p class="nice-greating">Such pleasure to be with us</p>
         </div>
-        <nav>
-            
+        <!-- Navigation Section -->
+        <p class="asisten">Asistent</p>
+        <nav class="navigation-section">
+            <a href="UserInterface.html">
+                <svg class="shape"xmlns="http://www.w3.org/2000/svg" width="180" height="52" viewBox="0 0 180 52" fill="none">
+                    <path d="M0 0L91 12.5L180 0V35L91 51.5L0 35V0Z" fill="#6D6A6A" />
+                </svg>
+            </a>
+            <a href="login.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="180" height="52" viewBox="0 0 180 52" fill="none" class="shape">
+                    <path d="M0 0L91 12.5L180 0V35L91 51.5L0 35V0Z" fill="#6D6A6A"/>
+                  </svg>
+            </a>
+            <a href="JustForFan.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="180" height="52" viewBox="0 0 180 52" fill="none" class="shape">
+                    <path d="M0 0L91 12.5L180 0V35L91 51.5L0 35V0Z" fill="#6D6A6A"/>
+                  </svg>
+            </a>
+              
         </nav>
-        <div></div>
+        <!-- Description section -->
+        <div class="description-section">
+            <H3 class="description-title">Project description</H3>
+            <p class="description-joke">The link to the GitHub of the project is here</p>
+            <img src="Accesories/Arrow 1.svg" class="img-description">
+            <a href="https://github.com/ChesaDavid/Multi-Language-Personal-Assistant"><button class="button-description">To GitHub project</button></a>
+        </div>
+        <!-- Contacts section -->
+        <footer class="contacts-section">
+            <img src="Accesories/logo.png" class="contact-immeage">
+            <h3>Contacts</h3>
+            <a href="tel:+40 0732409201"><span>Telefon</span></a>
+            <a href="mailto: david.chesa.it@gmail.com"><span>Email</span></a>
+            <a href="https://www.linkedin.com/feed/"><span>linkedin</span></a>
+        </footer>
     </div>
 </body>
 </html>

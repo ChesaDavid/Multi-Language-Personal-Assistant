@@ -1,0 +1,49 @@
+body{
+    background: #D9D9D9;
+}
+.upper-section{
+    margin-left: 360px;
+    margin-bottom: 40px;
+}
+.first-title{
+    color: #1E1E1E;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.Hello-world{
+    color: #1E1E1E;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;        
+padding-left: 120px;
+margin-top: -15px;
+}
+.nice-greating{
+    color: #9D8B8B;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;   
+line-height: normal;
+padding-left: 135px;
+margin-top: -20px;
+}
+.navigation-section{
+    fill: #6D6A6A;
+}
+.button-style1{
+      margin-left: -10px;   
+      background-color: #6D6A6A;
+}
+.asisten{
+    margin-bottom: -15px;
+}
+.shape{
+    padding-left: 170px;
+    margin-top: 10px;
+}
