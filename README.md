@@ -1,19 +1,19 @@
 # Multi-Language Personal Assistant
-A project started in High School
+A project started from highschool
 
-#Description:
+## Description:
 Create a personal assistant application that can perform a wide range of tasks using C++, Java, and Python for different components of the application.
-
-#Components:
+     
+## Components:
 Voice Recognition (Python): Implement voice recognition using Python libraries like SpeechRecognition to understand spoken commands.
 
-Natural Language Processing (Python): Utilize Python's Natural Language Processing libraries (speech_recognition) to analyze and understand the context of text-based commands.
+Natural Language Processing (Python): Utilize Python's Natural Language Processing libraries (NLTK or spaCy) to analyze and understand the context of text-based commands.
 
 Task Management (Java): Develop a Java-based task management system to handle to-do lists, appointments, and reminders.
 
 Data Storage (C++): Use C++ to create a data storage module for securely storing user data, such as tasks and preferences.
 
-User Interface (html,css and javascript): Design a user-friendly interface using the combind effort of all three lenguages for users to interact with the personal assistant.
+User Interface (Java): Design a user-friendly interface using Java's Swing or JavaFX for users to interact with the personal assistant.
 
 Integration (Python, Java, C++): Implement communication between the Python voice recognition and natural language processing components, the Java task management and user interface, and the C++ data storage module.
 
