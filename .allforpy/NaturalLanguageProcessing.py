@@ -10,6 +10,8 @@ while True:
     audio = recognizer.listen(source)
     text = recognizer.recognize_google(audio)
     repr(text)
+    break
+
 
 
 

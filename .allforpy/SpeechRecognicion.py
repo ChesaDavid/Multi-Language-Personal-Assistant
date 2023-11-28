@@ -1,5 +1,4 @@
 import speech_recognition as sr
-
 # Crearea unui obiect Recognizer
 recognizer = sr.Recognizer()
 
