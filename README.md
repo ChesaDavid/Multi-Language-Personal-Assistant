@@ -1,5 +1,5 @@
 # Multi-Language Personal Assistant
-A project started from highschool
+A project started from high school
 
 ## Description:
 Create a personal assistant application that can perform a wide range of tasks using C++, Java, and Python for different components of the application.
